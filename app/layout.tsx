@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		siteName: "chronark.com",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://archipofilo.vercel.app/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "PaYit",
 		card: "summary_large_image",
 	},
 	icons: {
@@ -63,9 +63,8 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
 			<body
-				className={`bg-black ${
-					process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-				}`}
+				className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
+					}`}
 			>
 				<Analytics />
 				{children}
