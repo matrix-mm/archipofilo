@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 		title: "chronark.com",
 		description:
 			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+		url: "https://archipofilo.vercel.app",
+		siteName: "archipofilo.vercel.app",
 		images: [
 			{
 				url: "https://archipofilo.vercel.app/og.png",
